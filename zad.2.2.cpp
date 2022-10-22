@@ -10,7 +10,7 @@ int main()
     cout << "Podaj wartosc a: ";
     cin >> a;
 
-    cout << "Podaj wartosc a: ";
+    cout << "Podaj wartosc b: ";
     cin >> b;
 
     for (int i = 0; i < a; i++) {
