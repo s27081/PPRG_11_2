@@ -6,15 +6,19 @@ int main()
 {
     int x;
     int wynik = 0;
+    int wynikSzeregu = 0;
 
     cout << "Podaj liczbe: ";
     cin >> x;
 
-    for (int i = 0; i <= x; i++) {
+    for (int i = 1; i <= x; i++) {
        
-        wynik = wynik + i;
+        wynik += i;
+
+        cout << wynik << endl;
         
+        wynikSzeregu += wynik;
     }
-    cout << wynik;
+    cout << wynikSzeregu;
 
 }
