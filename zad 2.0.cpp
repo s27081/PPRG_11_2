@@ -13,7 +13,7 @@ int main()
     else {
         int reszta = kawalkiPizzy % liczbaGosci;
 
-        cout << "Na kazdego uczestnika przypadaja " << (kawalkiPizzy - reszta) / liczbaGosci << " kawalki pizzy" << endl;;
+        cout << "Na kazdego uczestnika przypadaja " << (kawalkiPizzy - reszta) / liczbaGosci << " kawalki pizzy" << endl;
         cout << "Natomiast gospodarz otrzyma " << reszta;
     }
 }
