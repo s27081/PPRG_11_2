@@ -12,10 +12,8 @@ int main()
     cin >> x;
 
     for (int i = 1; i <= x; i++) {
-       
+      
         wynik += i;
-
-        cout << wynik << endl;
         
         wynikSzeregu += wynik;
     }
