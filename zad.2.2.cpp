@@ -21,7 +21,7 @@ int main()
     cout << endl;
 
 
-    cout << "Wiersz o dlugosci b:" << endl;
+    cout << "Kolumna o dlugosci b:" << endl;
     for (int y = 0; y < b; y++) {
         cout << "*" << endl;
     }
